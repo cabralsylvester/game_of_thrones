@@ -1,6 +1,7 @@
 <h1>Characters</h1>
 
-<%= @character.name %>
+
+<%= link_to @character.name, edit_character_path %>
 <br>
 <br>
 <%= image_tag @character.img_url %>
