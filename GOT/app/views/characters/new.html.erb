@@ -1,0 +1,12 @@
+<h1>Add New Character</h1>
+
+<%= form_for @character do |w| %>
+  <%= w.label :name %>
+  <%= w.text_field :name %>
+
+  <%= w.label :img_url %>
+  <%= w.text_field :img_url %>
+
+  <%= w.submit %>
+
+<% end %>
